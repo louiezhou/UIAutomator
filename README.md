@@ -50,6 +50,7 @@ public class UIRunner extends UiAutomatorTestCase {
 
 
 
+
 4. 完成java文件后，进入android adt的tools目录下，使用命令行执行：
 
 android create uitest-project -n UITest -t 1 -p D:\eclipseWorkSpace\UITest
@@ -60,10 +61,11 @@ Updated file D:\eclipseWorkSpace\UITest\build.xml
 
 E:\android_sdk\adt-bundle-windows-x86_64-20131030\sdk\tools>
 
+
 5. 在命令行中用： android list 
 
 检查是否是 api level 大于17
-1 代表当前的android 设备id 是1 且api level 要大于17以上
+其中的 1 代表当前的android 设备id 是1 且api level 要大于17以上
 
 
 
